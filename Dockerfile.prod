@@ -10,4 +10,4 @@ COPY Gemfile Gemfile.lock /test-product-register/
 RUN bundle install
 COPY ..
 CMD ["rails", "s"]
-#
+##########
